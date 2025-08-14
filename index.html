@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tan Hung Ward Youth Union — Introduction</title>
+  <meta name="description" content="Introduction page for the Tan Hung Ward Youth Union (Đoàn Phường Tân Hưng): digital transformation, English-for-all activities, and wholehearted support for the ward.">
+  <link rel="canonical" href="https://example.com/">
+  <style>
+    :root { --brand:#0066B3; --bg:#ffffff; --text:#1a1a1a; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:var(--text);background:var(--bg)}
+    a{color:var(--brand)}
+    header, main, footer{max-width:1100px;margin:auto;padding:1rem}
+    header{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    nav ul{list-style:none;padding:0;margin:0;display:flex;gap:1rem;flex-wrap:wrap}
+    .hero{background:linear-gradient(90deg,#eaf4ff,#ffffff);border-block:4px solid var(--brand)}
+    h1{font-size:clamp(1.6rem,3.2vw,2.2rem);margin:0;color:var(--brand)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+    figure{margin:0;border:1px solid #e6e6e6;border-radius:14px;overflow:hidden;background:#fff}
+    figure img{width:100%;height:auto;display:block}
+    figcaption{padding:.75rem;font-size:.95rem;background:#f8f9fb}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .skip-link{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip-link:focus{left:1rem;top:1rem;width:auto;height:auto;padding:.5rem 1rem;background:#000;color:#fff;border-radius:.5rem;z-index:1000}
+    footer{border-top:1px solid #eee;color:#555}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="hero" role="banner">
+    <div>
+      <h1>Tan Hung Ward Youth Union</h1>
+      <p aria-describedby="mission">We connect young people, the ward government, and the community through technology, education, and service.</p>
+      <p id="mission" class="sr-only">Mission statement of the Tan Hung Ward Youth Union.</p>
+    </div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="https://doanthanhnien.vn/" rel="noopener" target="_blank">Official Youth Union</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">Who we are</h2>
+      <p>We are the Youth Union of Tan Hung Ward, District 7. Our members lead practical activities that benefit residents of all ages and serve as a bridge between the ward and the people.</p>
+    </section>
+
+    <section id="highlights" aria-labelledby="highlights-title">
+      <h2 id="highlights-title">What we focus on</h2>
+      <ul>
+        <li><strong>Driving digital transformation:</strong> we prototype an AI chatbox (ChatGPT-based) for live Q&amp;A so residents can quickly find answers about public administrative services.</li>
+        <li><strong>English for everyone:</strong> we run meaningful, hands-on activities that bring English closer to every child in the ward—turning a “hard-to-like” subject into a passion.</li>
+        <li><strong>Wholehearted service:</strong> we actively support every front of the ward, carrying out tasks from higher levels with dedication and spreading the spirit widely.</li>
+      </ul>
+    </section>
+
+    <section id="gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Photo gallery</h2>
+      <div class="grid" role="list">
+        <figure role="listitem">
+          <img src="CDSPTH.jpg" alt="Group photo of officials and community members at a Tan Hung Ward event">
+          <figcaption>Community engagement with local leaders.</figcaption>
+        </figure>
+        <figure role="listitem">
+          <img src="DHSKT.jpg" alt="Back-to-school program with youth volunteers and children on stage">
+          <figcaption>“Back to School” program supporting students.</figcaption>
+        </figure>
+        <figure role="listitem">
+          <img src="DHDBPTH.jpg" alt="Large group of Youth Union members wearing blue uniforms at a congress backdrop">
+          <figcaption>Youth Union members at a ward congress activity.</figcaption>
+        </figure>
+      </div>
+      <p>Credit: Tan Hung Ward Youth Union.</p>
+    </section>
+
+    <article aria-labelledby="cta-title">
+      <h2 id="cta-title">Get involved</h2>
+      <p>Join our next activity or contribute your skills. Have questions about ward-level administrative services? Try our pilot <em>AI Chatbox</em> concept, built to make information easy to access.</p>
+      <p>
+        <a href="https://validator.w3.org/" target="_blank" rel="noopener">Validate this page with the W3C Markup Validation Service</a> 
+        and 
+        <a href="https://wave.webaim.org/" target="_blank" rel="noopener">check accessibility with WAVE</a>.
+      </p>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; <span id="year"></span> Tan Hung Ward Youth Union. All rights reserved.</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
